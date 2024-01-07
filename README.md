@@ -8,7 +8,7 @@ A example of simple funnel that keeps states even when browser back happened.
 
 Example repository of how to keeps data in funnel steps when back/forwards.
 
-Control history by query params so keep data, can back/forward in funnel steps with kept data.
+Control history by query params so, remain data when back/forwards.
 
 You can find logics in [src/app/page.tsx](https://github.com/Tolluset/funnel-nextjs/blob/main/src/app/page.tsx).
 
@@ -17,9 +17,9 @@ You can find logics in [src/app/page.tsx](https://github.com/Tolluset/funnel-nex
 
 The kept states in parent component so funnels data is kept.
 
-If go back after user complete the funnel, the state is automatically cleared because controlled by different route. 
+If go back after user complete the funnel, the state is automatically cleared because complete page is controlled by different route. 
 
-The funnel's parent component should make `useEffect` to initaillized route.
+The funnel's parent component should make `useEffect` to initaillize the route.
 
 
 ## how to start
