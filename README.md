@@ -2,6 +2,8 @@
 
 A example of simple funnel that keeps states even when browser back happened.
 
+[see in deployment](https://funnel-nextjs.vercel.app)
+
 [blog(korean)](https://dev.classmethod.jp/articles/funnel_browser_back_safe)
 
 ## what is it
