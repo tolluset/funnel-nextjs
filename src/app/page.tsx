@@ -30,7 +30,7 @@ export default function Home() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const steps = searchParams.get("steps") as Steps;
+  const steps = searchParams.get(STEPS_PARAM_PREFIX) as Steps;
 
   const initRoute = useCallback(() => {
     router.replace(`?${STEPS_PARAM_PREFIX}=${FIRST_STEP}`);
