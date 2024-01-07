@@ -61,7 +61,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="flex flex-col items-center justify-between pt-24 ml-[-420px]">
+      <div className="flex flex-col items-center justify-between p-24">
         {steps === "nickname" && (
           <NicknameStep
             setup={setup}
