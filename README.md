@@ -10,6 +10,8 @@ Example repository of how to keeps data in funnel steps when back/forwards.
 
 Control history by query params so keep data, can back/forward in funnel steps with kept data.
 
+You can find logics in [src/app/page.tsx](https://github.com/Tolluset/funnel-nextjs/blob/main/src/app/page.tsx).
+
 ## how it works
 
 
